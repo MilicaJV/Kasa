@@ -1,0 +1,47 @@
+.div-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.footer {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 18px;
+    align-items: center;
+}
+
+.logoFooter {
+    height: 39px;
+    padding-top: 66px;
+}
+
+.par-footer {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 28px;
+    padding-bottom: 29px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .par-footer {
+        font-size: 12px;
+        width: 133px;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 58px;
+    }
+
+    .footer {
+        padding-top: 0;
+    }
+}
