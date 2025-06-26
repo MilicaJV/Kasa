@@ -45,9 +45,9 @@ describe('Slideshow component', () => {
     render(<Slideshow pictures={images} />);
     const nextButton = screen.getByRole('button', { name: '❯' });
 
-    fireEvent.click(nextButton); // 2
-    fireEvent.click(nextButton); // 3
-    fireEvent.click(nextButton); // back to 1
+    fireEvent.click(nextButton); 
+    fireEvent.click(nextButton); 
+    fireEvent.click(nextButton); 
 
     expect(screen.getByAltText('slide 1')).toBeInTheDocument();
   });
